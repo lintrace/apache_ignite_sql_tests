@@ -31,7 +31,7 @@ public class Main {
         }
         else System.out.println("No cache found in the cluster");
 
-        SqlCacheTests.startSqlTests(client);
+        new SqlCacheTests(client).startSqlTests();
 
         client.close();
     }
