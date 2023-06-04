@@ -12,7 +12,7 @@ public class SqlCacheTests {
 
     final private IgniteClient client;
 
-    SqlCacheTests(@NotNull IgniteClient _client){
+    SqlCacheTests(@NotNull IgniteClient _client) {
         client = _client;
     }
 
